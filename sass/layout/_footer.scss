@@ -1,0 +1,132 @@
+.footer {
+    background: url("../images/bgrft.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 0px;
+    position: relative;
+    .footer-company {
+        > h4 {
+            position: relative;
+            color: #fff;
+            font-weight: 500;
+            &::after {
+                content: "";
+                position: absolute;
+                width: 70px;
+                height: 3px;
+                left: 0;
+                bottom: -10px;
+                background: #c8b964;
+            }
+        }
+        p {
+            margin-top: 30px;
+            color: #fff;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        ul {
+            margin-top: 20px;
+            li {
+                position: relative;
+                padding-left: 20px;
+                list-style: none;
+                color: #9fa1a1;
+                a {
+                    color: #c8b964;
+                }
+            }
+        }
+        .map {
+            li {
+                &:first-child ::before {
+                    position: absolute;
+                    left: 0;
+
+                    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='10' height='13' fill='%23fff' viewBox='0 0 10 13'%3E%3Cimage id='_Group_' data-name='&lt;Group&gt;' width='10' height='13' xlink:href='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAYAAACQN/8FAAAA00lEQVQokXWRsWpCYQyFj4LQTh0EbwWXvoG4CIKTc9+i4Ozs5OzkE7iIOLiKi++hg4WCQxGHCg4OrX4SmltyLzYQfjj5Ek7+FACFaElqSPqRtJK0/SsZCDwBS7JxAYbA7zAH547sgAEwAk6u9VLwxYUDkHijZRu4Ap821YRXBycBSnPjtaQoae92a8rGo6RnSWdJX9ZVBN69sw88AGVg5to0LtMN+367Nwt76xEsAevc92R8R+OdHHQEqvdAy3EA32ItD9qFPoBFepH/QMsmUMlooBtL/n9IIAuZ7gAAAABJRU5ErkJggg=='/%3E%3C/svg%3E");
+                }
+            }
+        }
+        .user {
+            li {
+                &:first-child ::before {
+                    position: absolute;
+                    left: 0;
+
+                    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='10' height='13' fill='%23fff' viewBox='0 0 10 13'%3E%3Cimage id='_Group_' data-name='&lt;Group&gt;' width='10' height='13' xlink:href='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAYAAACQN/8FAAAA00lEQVQokXWRsWpCYQyFj4LQTh0EbwWXvoG4CIKTc9+i4Ozs5OzkE7iIOLiKi++hg4WCQxGHCg4OrX4SmltyLzYQfjj5Ek7+FACFaElqSPqRtJK0/SsZCDwBS7JxAYbA7zAH547sgAEwAk6u9VLwxYUDkHijZRu4Ap821YRXBycBSnPjtaQoae92a8rGo6RnSWdJX9ZVBN69sw88AGVg5to0LtMN+367Nwt76xEsAevc92R8R+OdHHQEqvdAy3EA32ItD9qFPoBFepH/QMsmUMlooBtL/n9IIAuZ7gAAAABJRU5ErkJggg=='/%3E%3C/svg%3E");
+                }
+            }
+        }
+    }
+    .footer-option {
+        > h4 {
+            position: relative;
+            color: #fff;
+            font-weight: 500;
+            &::after {
+                content: "";
+                position: absolute;
+                width: 70px;
+                height: 3px;
+                left: 0;
+                bottom: -10px;
+                background: #c8b964;
+            }
+        }
+        ul {
+            margin-top: 30px;
+            li {
+                list-style: none;
+                font-size: 12px;
+                line-height: 20px;
+                &:hover a {
+                    color: #fff;
+                    font-weight: 600;
+                }
+                a {
+                    color: #9fa1a1;
+                }
+            }
+        }
+        .footer-option__img {
+            margin-top: 30px;
+        }
+    }
+
+    .footer-end {
+        background: #ffff;
+        padding: 5px 0;
+        margin-top: 60px;
+        ul {
+            display: flex;
+            align-items: center;
+            li {
+                list-style: none;
+                font-weight: 600;
+                margin-right: 30px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 769px){
+.footer .footer-end{
+    padding: 5px 30px;
+}
+}
+@media screen and (max-width: 426px) {
+    .footer .footer-end{
+        margin-left: -20px;
+        margin-right: -21px;
+    }
+    .footer .footer-option {
+        margin-top: 30px;
+    }
+    .footer .footer-option ul li {
+        float: left;
+        width: 50%;
+    }
+    .footer {
+        padding: 50px 20px 0px;
+    }
+}
